@@ -1,0 +1,40 @@
+QMainWindow {
+    background-color: #FFFFFF;
+    font-family: 'Candara';
+    font-size: 12pt;
+}
+
+QTableWidget {
+    background-color: #D2DFFF;
+    gridline-color: #355CBD;
+    border: 1px solid #355CBD;
+}
+
+QHeaderView::section {
+    background-color: #355CBD;
+    color: white;
+    padding: 5px;
+}
+
+QPushButton {
+    background-color: #355CBD;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 15px;
+    min-width: 100px;
+}
+
+QPushButton:hover {
+    background-color: #2A4A8F;
+}
+
+QLineEdit, QSpinBox, QComboBox {
+    border: 1px solid #355CBD;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#requestCard[selected="true"] {
+    background-color: #85a6fa; /* Цвет при выборе */
+    border: 2px solid #355CBD;
+}
